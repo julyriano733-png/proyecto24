@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 24 - Story Feature</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Historias</h1>
+
+  <div class="barra-historias">
+    <button id="boton-mas" class="boton-mas" type="button">+</button>
+
+    <div id="lista-historias" class="lista-historias"></div>
+  </div>
+
+  <input id="input-imagen" type="file" accept="image/*" hidden>
+
+  <div id="visor" class="visor oculto">
+    <div class="visor-contenido">
+
+      <div id="barras" class="barras"></div>
+
+      <button id="boton-cerrar" class="boton-cerrar" type="button">✕</button>
+
+      <img id="imagen-visor" class="imagen-visor" alt="Historia">
+
+      <div id="zona-izquierda" class="zona zona-izquierda"></div>
+      <div id="zona-derecha" class="zona zona-derecha"></div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
